@@ -1,0 +1,47 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <title>TEMPLATE</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous" async></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
+        <script src="Calculator.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="Calculator.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <div><p>This is one of the first projects I worked on with my mentor. Try it out!</p></div>
+<div class="container-fluid">
+ <div class="row" id="row1">
+<div id="calc">
+        <div>
+          <input type="text" id="currentDisplay" value="0" />
+        </div>
+        <div>
+          <button onclick="addToInput(9)">9</button>&nbsp;
+          <button onclick="addToInput(8)">8</button>&nbsp;
+          <button onclick="addToInput(7)">7</button>&nbsp;
+          <button onclick="addOperation('+')"> + </button>
+        </div>
+        <div>
+          <button onclick="addToInput(6)">6</button>&nbsp;
+          <button onclick="addToInput(5)">5</button>&nbsp;
+          <button onclick="addToInput(4)">4</button>&nbsp;
+          <button onclick="addOperation('-')">-</button>
+        </div>
+        <div>
+          <button onclick="addToInput(3)">3</button>&nbsp;
+          <button onclick="addToInput(2)">2</button>&nbsp;
+          <button onclick="addToInput(1)">1</button>&nbsp;
+          <button onclick="addOperation('*')">*</button>
+        </div>
+        <div>
+          <button onclick="addToInput(0)">0</button>&nbsp;
+          <button onclick="clear1()">C</button>&nbsp;
+          <button onclick="equate()">=</button>&nbsp;
+          <button onclick="addOperation('/')">/</button>
+        </div>
+      </div>
+  </div>
+</div>
+    </body>
+  </html>
